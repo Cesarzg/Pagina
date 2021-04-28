@@ -40,26 +40,26 @@
     <caption>
         <h2>¿Quieres unirte?</h2>
     </caption>
-    <form action="" >
+    <form action="Nuevo.html" target="_self" method="post">
             <tr>
                 <th>
                     <label for="fnombre">Nombre :</label>
-                    <input type="text">
+                    <input type="text" name="Nombres">
                 </th>
                 <th>
                     <label for="fapellido">Apellidos :</label>
-                    <input type="text">
+                    <input type="text" name="Apellidos">
                     <label for=""></label>
                 </th>
             </tr>
             <tr>
                 <th>
                     <label for="femail">E-mail :</label>
-                    <input type="text">
+                    <input type="text" name="Correo">
                 </th>
                 <th>
-                    <label label for="fdireccion">Direccion :</label>
-                    <input type="text">
+                    <label for="fdireccion">Direccion :</label>
+                    <input type="text" name="Direccion">
                 </th>
             </tr>
             <tr>
@@ -68,10 +68,18 @@
                         <input type="radio" name="optrradio" value="Masculino">Masculino
                         <input type="radio" name="optrradio" value="Femenino">Femenino
                 </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label for="fpalabras">Algunas palabras :</label><br>
+                    <textarea name="Mensaje" id="" ></textarea><br>
+                    <input type="reset" value="Comenzar denuevo" id="">
+                </th>
             </tr>   
             <tr>
                 <th colspan="2">
-                    <button onclick="Aceptar()">Aceptar</button>
+                    <input type="submit" value="Enviar datos">
+                    <input type="reset" value="Comenzar denuevo" id="">
                 </th>
             </tr>
        
