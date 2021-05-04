@@ -1,0 +1,40 @@
+body{
+    background-color: chartreuse;
+}
+img{
+    float: left;
+}
+.atajos{
+    color: black;
+    float: right;
+}
+ul li{
+    display: inline;
+font-size: 1.5em;
+padding: 10px;
+
+}
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    color: white;
+    }
+.Registro{
+    border-color: red;
+    border-radius: 0%;
+    background-color: white;
+border:9px;
+}
+*td,th{
+    border: 9px;
+
+}
+.registrarse{
+    float: right    ;
+    background-color: red;
+}
+
+
+
+
