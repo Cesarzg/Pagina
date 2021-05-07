@@ -1,6 +1,6 @@
 body{
     background-color: chartreuse;
-}
+    }
 img{
     float: left;
 }
@@ -20,18 +20,20 @@ ul li a{
 ul li a:hover{
     color: white;
     }
-.Registro{
-    border-color: red;
-    border-radius: 0%;
+.Registro
+{
+    
+  
     background-color: white;
-border:9px;
+border:5px;
 }
-*td,th{
-    border: 9px;
+th{
+    border-style: dashed;
+    
 
 }
-.registrarse{
-    float: right    ;
+#registrarse{
+        
     background-color: red;
 }
 
