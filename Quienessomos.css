@@ -1,12 +1,19 @@
 body{
     background-color: chartreuse;
 }
+.titulos{
+    background-color:red;
+}
+h1{
+    font-family: sans-serif;
+}
 #Logo{
     float: left;
 }
 .atajos{
     color: black;
     float: right;
+
 }
 ul li{
     display: inline;
@@ -22,6 +29,7 @@ ul li a:hover{
     }
 .contexto{
 float: left;
+background-color: red;
 }
 #aqp{
 float: right;

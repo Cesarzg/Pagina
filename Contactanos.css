@@ -1,41 +1,57 @@
 body{
     background-color: chartreuse;
-    }
-img{
+}
+h1{
+    font-family: sans-serif;
+}
+.Inicio{
+    clear: both;
+    overflow: auto;
+    
+}
+#Logo{
     float: left;
 }
-.atajos{
+.Atajos{
     color: black;
     float: right;
 }
 ul li{
     display: inline;
-font-size: 1.5em;
+font-size: 1.2em;
 padding: 10px;
 
 }
 ul li a{
     color: black;
+    text-decoration: none;
 }
 ul li a:hover{
     color: white;
     }
-.Registro
-{
-    
-  
-    background-color: white;
+h2 a{
+    color: black;
+    text-decoration: none;
+}
+.Registrarse{
+    clear: both;
+    overflow: auto;
+
+width: 500;
+height: 500;
+    }
+.Registro {
+ background-color: white;
 border:5px;
+background-position-x: right;
+
 }
 th{
     border-style: dashed;
     
 
 }
-#registrarse{
-        
-    background-color: red;
-}
+
 
 
 
