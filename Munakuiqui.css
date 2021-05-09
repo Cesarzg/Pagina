@@ -28,3 +28,36 @@ ul li a{
 ul li a:hover{
     color: white;
     }
+    h2 a{
+        color: black;
+        text-decoration: none;
+    }
+    .contexto{
+        float: left;
+        }
+    #aqp{
+        float: right;
+        width: 300;
+        height: 200;
+        }
+
+
+        .Registrarse{
+            clear: both;
+            overflow: auto;
+        width: 500;
+        height: 500;
+            }
+        .Registro {
+         background-color: white;
+        border:5px;
+        background-position-x: right;
+        
+        }
+        th{
+            border-style: dashed;
+            
+        
+        }
+  
+        
