@@ -3,7 +3,7 @@ body{
 }
 h2{
     font-family: 'Romanesco', cursiva;
-    
+    text-align: center;
 }
 .Inicio{
     clear: both;
@@ -80,24 +80,11 @@ ul li a:hover{
         width: 300;
         height: 200;
         }
+footer{
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
 
-
-        .Registrarse{
-            clear: both;
-            overflow: auto;
-        width: 500;
-        height: 500;
-            }
-        .Registro {
-         background-color: white;
-        border:5px;
-        background-position-x: right;
         
-        }
-        th{
-            border-style: dashed;
-            
-        
-        }
-  
         

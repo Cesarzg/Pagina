@@ -1,13 +1,9 @@
 body{
-    background-color: chartreuse;
-}
-h1{
-    font-family: sans-serif;
+    background-color: rgb(201, 231, 179);
 }
 .Inicio{
     clear: both;
     overflow: auto;
-    
 }
 #Logo{
     float: left;
@@ -18,8 +14,8 @@ h1{
 }
 ul li{
     display: inline;
-font-size: 1.3em;
-padding: 10px;
+    font-size: 1.3em;
+    padding: 10px;
 
 }
 ul li a{
@@ -28,28 +24,44 @@ ul li a{
 }
 ul li a:hover{
     color: white;
-    }
-h2 a{
-    color: black;
+    background: red;
+}
+h1 a{
     text-decoration: none;
+    color: black;
 }
-.Registrarse{
-    clear: both;
-    overflow: auto;
-width: 500;
-height: 500;
-    }
-.Registro {
- background-color: white;
-border:5px;
-background-position-x: right;
-
-}
-th{
-    border-style: dashed;
+.main .Registro{
+    float: left;
+    width: 60%;
+    margin-right: 1.5%;
     
-
 }
+table{
+    background-color: white;
+    margin: 0 auto;
+}
+table tr {
+    border: 2px;
+}
+aside{
+    width: 38.50%;
+    height: 200px;
+    background-color: blue;
+    color: cornsilk;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer{
+    font-family: 'Romanesco', cursiva;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
+
+
+
 
 
 
