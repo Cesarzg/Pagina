@@ -30,6 +30,9 @@ h1 a{
     text-decoration: none;
     color: black;
 }
+.main{
+    margin: 10px 10px;
+}
 .main .Registro{
     float: left;
     width: 60%;
@@ -71,7 +74,7 @@ h1 a{
     width: 100px;
     margin: 10px 50px;
     padding: 15px 20px;
-    background: none;
+    background: #23648d;
     border: 1px solid #15a4fa;
     border-radius: 5px;
     color: #fff;
@@ -84,6 +87,7 @@ h1 a{
 aside{
     width: 38.50%;
     height: 200px;
+    margin: 0px 0px;
     background-color: blue;
     color: cornsilk;
     float: left;
