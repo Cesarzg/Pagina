@@ -1,8 +1,5 @@
 body{
-    background-color: chartreuse;
-}
-h1{
-    font-family: sans-serif;
+    background-color: rgb(201, 231, 179);
 }
 .Inicio{
     clear: both;
@@ -17,8 +14,8 @@ h1{
 }
 ul li{
     display: inline;
-font-size: 1.3em;
-padding: 10px;
+    font-size: 1.3em;
+    padding: 10px;
 
 }
 ul li a{
@@ -27,12 +24,11 @@ ul li a{
 }
 ul li a:hover{
     color: white;
-    }
-    h2 a{
-        color: black;
-        text-decoration: none;
-    }
-
-
+    background: red;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
 
 
