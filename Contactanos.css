@@ -36,12 +36,50 @@ h1 a{
     margin-right: 1.5%;
     
 }
-table{
-    background-color: white;
-    margin: 0 auto;
+.Titulos{
+    text-align: center;
 }
-table tr {
-    border: 2px;
+#nombre,#direccion,#correo,#mensaje{
+    width: 60%;
+    margin: 5px 30px;
+    padding: 15px 20px;
+    background: #23648d;   
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #15a4fa;
+    font-family: cursive ;
+    font-weight: 500;
+    
+}
+#mensaje{
+    height: 150px;
+    max-height: 150px;
+    width: 70%;
+    max-width: 100%;
+    min-height: 150px;
+}
+#nombre,#direccion,#correo,#mensaje,::placeholder{
+    color: black;
+    
+}
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonderecha{
+    display: block;
+    width: 100px;
+    margin: 10px 50px;
+    padding: 15px 20px;
+    background: none;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer; 
+   }
+   .botonderecha:hover{
+    background: #15a4fa;
+    color: #fff;
 }
 aside{
     width: 38.50%;
@@ -54,7 +92,6 @@ aside{
     text-align: center;
 }
 footer{
-    font-family: 'Romanesco', cursiva;
     text-align: center;
     clear: both;
     padding: 10px;
