@@ -28,6 +28,7 @@ ul li a{
 }
 ul li a:hover{
     color: white;
+    background: red;
     }
     h1 a{
         color: black;
