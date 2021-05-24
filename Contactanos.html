@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
-    
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="Contactanos.css">
 </head>
 <body >
@@ -40,19 +40,57 @@
     <main class="main">
             <section class="Registro">
                 <article>
-                    <div class="Titulos">
-                        <h2>¿Quieres Unirte?</h2>
-                        <p>Juntos podemos hacer un gran cambio</p>
-                    </div>
-                    <form class="Formulario" action="" method="POST">
-                        <input type="text" placeholder="Nombres" id="nombre" name="nombre" required value="" ><br>
-                        <input type="text" placeholder="Direccion" id="direccion" name="direccion" required value="" ><br>
-                        <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email" ><br>
-                        <textarea name="Mensaje" placeholder="Mensaje" id="mensaje"  cols="30" rows="10"></textarea><br>
-                        <div class="derecha">
-                            <input class="botonderecha" placeholder="" type="submit" value="Contactar" name="submit">
-                        </div>
+                    <table >
+                        <caption>
+                            <h2>¿Quieres unirte?</h2>
+                        </caption>
+                        <form action="Nuevo.html" target="_self" method="post">
+                        <tr>
+                            <th>
+                                <label for="fnombre">Nombre :</label>
+                                <input type="text" name="Nombres">
+                            </th>
+                            <th>
+                                <label for="fapellido">Apellidos :</label>
+                                <input type="text" name="Apellidos">
+                                <label for=""></label>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="femail">E-mail :</label>
+                                <input type="text" name="Correo">
+                            </th>
+                            <th>
+                                <label for="fdireccion">Direccion :</label>
+                                <input type="text" name="Direccion">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <label for="fsexo">Sexo :</label>
+                                <input type="radio" name="optrradio" value="Masculino">Masculino
+                                <input type="radio" name="optrradio" value="Femenino">Femenino
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <label for="fpalabras">Algunas palabras :</label><br>
+                                <textarea name="Mensaje" id="" ></textarea><br>
+                                <input type="reset" value="Comenzar denuevo" id="">
+                            </th>
+                        </tr>   
+                        <tr>
+                            <th colspan="2">
+                                <input type="submit" value="Enviar datos">
+                            
+                            </th>
+                        </tr>
+                
+                
                     </form>
+                
+                </table>
                 </article>
     
             </section>
@@ -65,9 +103,10 @@
                 </marquee>
             </aside>
     </main>
+
     <footer>
         <h2>"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h2>
-    
+       
     </footer>
     
 </body>
