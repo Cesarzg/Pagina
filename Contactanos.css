@@ -60,6 +60,7 @@ h1 a{
     width: 70%;
     max-width: 100%;
     min-height: 150px;
+    text-align: justify;
 }
 #nombre,#direccion,#correo,#mensaje,::placeholder{
     color: black;
