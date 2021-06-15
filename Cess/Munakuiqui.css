@@ -1,25 +1,39 @@
+
 body{
     background-color: rgb(201, 231, 179);
 }
-h2{
-    font-family: 'Romanesco', cursiva;
-    text-align: center;
-}
-.Inicio{
+
+
+.inicio{
     clear: both;
-    overflow: auto;
+    display: table;
+    background: rgba(57, 141, 1, 1);
+    position: fixed;
+    width: 99%;
+    height: 100px;
+    border-radius: 10px;
+    
 }
-#Logo{
+header #header-logo{
+    width: 30%;
+    background-position: center;
     float: left;
 }
-.Atajos{
+
+header #atajos{
     color: black;
+    display: block;
+    position: relative;
+	top: 20px;
+	left: 1%;
+	width: 65%;
+	height: 100px;
     float: right;
 }
 ul li{
     display: inline;
-font-size: 1.3em;
-padding: 10px;
+    font-size: 1.3em;
+    padding: 10px;
 
 }
 ul li a{
@@ -28,12 +42,16 @@ ul li a{
 }
 ul li a:hover{
     color: white;
-    background: red;
-    }
-    h1 a{
-        color: black;
-        text-decoration: none;
-    }
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+menu {
+    clear: both;
+    margin-top: 100px;
+    
+}
 
     .slider{
         width: 100;
