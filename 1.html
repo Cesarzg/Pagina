@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Pagina de prueba de onSelect</title>
+<script language="Javascript">
+function seleccion()
+{
+	var texto=document.getElementById("texto");
+	var inicio=texto.selectionStart;
+	var final=texto.selectionEnd;
+	var sel=texto.value.substring(inicio,final);
+	alert("Texto seleccionado:\n" + sel);
+}
+</script>
+</head>
+<body>
+<textarea id="texto" cols="70" rows="10" readonly="yes" onSelect="seleccion()">
+Este es un texto de Prueba donde probaremos como funciona la seleccion.
+No notaremos nada raro, salvo la posibilidad de no poder modificar el texto contenido aca.
+https://www.arkaitzgarro.com/javascript/capitulo-15.html
+</textarea>
+</body>
+</html>

@@ -49,15 +49,22 @@ ul li a:hover{
 }
 menu {
     clear: both;
-    margin-top: 100px;
+    margin-top: 150px;
+    width: 100%;
+    
+    height: 700px;
+}
+.presentacion{
+    
+   clear: both;
     
 }
-
     .slider{
-        width: 100;
-        margin: auto;
+        width: 50%;
         overflow: hidden;
-        
+        background: yellowgreen;
+        float: left;
+        border-radius: 25px;
     }
     .slider ul{
         display: flex;
@@ -67,14 +74,50 @@ menu {
         
     }
     .slider li{
-        width: 100%;
         list-style: none;
+        padding-left: 10px;       
+    }   
+    #a1{
+        width: 100%;
+        
         
     }
-    .slder img{
+    #img1{
+        width: 400px;
+        height: 400px;
+        padding: 20%;
+        border-radius: 25%;
+        margin: auto;
+    }
+    #a2{
+        width: 100%;       
+    }
+    #img2{
+        width: 400px;
+        height: 400px;
+        padding: 20%;
+        border-radius: 25%;
+        margin: auto;
+    }
+    #a3{
         width: 100%;
-        
-        
+    }
+    #img3{
+        width: 400px;
+        height: 400px;
+        padding: 20%;
+        border-radius: 25%;
+        margin: auto;
+    }
+    #a4{
+        width: 100%;
+    }
+    #img4{
+        width: 400px;
+        height: 400px;
+        border-radius: 25%;
+        padding: 20%;
+        margin: auto;
     }
     @keyframes cambio{
         0% {margin-left: 0;}
@@ -89,16 +132,24 @@ menu {
         75% {margin-left: -300%;}
         100% {margin-left: -300%;}
     }
-
-
-    .contexto{
-        float: left;
-        }
-    #aqp{
+    .parrafo{
+        width: 50%;
         float: right;
-        width: 300;
-        height: 200;
-        }
+        background: white;
+        
+    }
+p{
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: justify;
+    border:rgb(167, 176, 160)  solid 8px;
+    background: rosybrown;
+    border-radius: 10%;
+   padding: 50px;
+   margin: 100px 100px 50px 100px;
+}
+
+  
 footer{
     text-align: center;
     clear: both;
