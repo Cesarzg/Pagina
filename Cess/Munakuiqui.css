@@ -49,22 +49,24 @@ ul li a:hover{
 }
 menu {
     clear: both;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 100%;
     
-    height: 700px;
+    height: 1250px;
 }
 .presentacion{
-    
+    height: 750px;
    clear: both;
+   
     
 }
     .slider{
         width: 50%;
         overflow: hidden;
-        background: yellowgreen;
+        
         float: left;
         border-radius: 25px;
+        clear: both ;
     }
     .slider ul{
         display: flex;
@@ -135,7 +137,6 @@ menu {
     .parrafo{
         width: 50%;
         float: right;
-        background: white;
         
     }
 p{
@@ -143,13 +144,32 @@ p{
     font-size: 1.5em;
     text-align: justify;
     border:rgb(167, 176, 160)  solid 8px;
-    background: rosybrown;
+    background: rgb(2, 150, 51);
     border-radius: 10%;
    padding: 50px;
    margin: 100px 100px 50px 100px;
+}   
+.recurso{
+    width: 70%;
+    height: 400px;
+    background: black ;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    border-radius: 40px;
+    background: whitesmoke; 
+}    
+.recurso img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-position: center;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    
 }
 
-  
 footer{
     text-align: center;
     clear: both;
