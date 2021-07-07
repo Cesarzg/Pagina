@@ -95,7 +95,7 @@ h1 a{
     text-align: justify;
 }
 #nombre,#direccion,#correo,#mensaje,::placeholder{
-    color: red;
+    color: white;
     
 }
 .derecha{
@@ -121,8 +121,8 @@ h1 a{
     width: 30.50%;
     height: 200px;
     margin: 0px 0px;
-    background-color: blue;
-    color: cornsilk;
+    background-color: rgb(235, 236, 234 );
+    color: black;
     float: left;
     padding: 10px;
     box-sizing: border-box;

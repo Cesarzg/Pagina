@@ -53,6 +53,11 @@ h1 a{
     text-decoration: none;
     color: black;
 }
+section{
+    width: 60%;
+    height: 600px;
+    background-position: relative;
+}
 footer{
     text-align: center;
     clear: both;
