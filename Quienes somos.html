@@ -5,43 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Quienes somos?</title>
-    <link rel="stylesheet" href="Munakuiqui.css">
-    
+    <link rel="stylesheet" href="/Css/Quienessomos.css">
+    <script src="/Js/Quienessomos.Js"></script>
+    <link rel="icon" href="/Imagenes/logo.png">
 </head>
 <body>
     <header>
-        <div class="titulos">
-            <h1 >"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h1>
-            <div class="inicio" >
-                <a href="Munakuiqui.html"><img src="Imagenes/92.jpg" alt="Logo" width="300" height="150" title="aqp" id="Logo"></a>
-                <nav>
-                    <div class="atajos">
-                        <ul>
-                            <li> <a href="Quienes somos.html" >¿Quienes somos?</a></li>
-                            <li><a href="Servicios.html" >Servicios</a></li>
-                            <li><a href="Contaminacion.html" >Contaminacion</a></li>
-                            <li><a href="Noticias.html" >Noticias</a></li>
-                            <li><a href="Contactanos.html" >Contactanos</a></li>
-                            <li><input type="search" name="busquedaenlaces" placeholder="Ver mas" list="Links"></li>
-                            <li><input type="submit" value="Buscar" ></li>
-                        </ul>
-                    </div>  
-                </nav>
+        <div class="inicio" >
+            <div id="header-logo">
+                <a href="Munakuiqui.html"><img src="Imagenes/logo.png" alt="Logo" width="250" 
+                    height="100" title="aqp" id="Logo"></a>
             </div>
+                <div id="atajos">
+                    <nav >
+                        <ul>
+                            <li> <a href="#" onclick="atajo1()">¿Quienes somos?</a></li>
+                            <li><a href="#" onclick="atajo2()">Servicios</a></li>
+                            <li><a href="#" onclick="atajo3()" >Consejos</a></li>
+                            <li><a href="#" onclick="atajo4()">Noticias</a></li>
+                            <li><a href="#" onclick="atajo5()">Contactanos</a></li>
+                            
+                        </ul>
+                    </nav>  
+                </div>
         </div>
+        
     </header>
     <br>
 <menu>
-    <div class="contexto">
+    <div class="menu-contenido">
         <h1>
             
-                <a href="quienes somos.html" style="color: black;">¿Quienes somos?</a>
+                ¿Quienes somos?
         </h1>
-        <div class="texto">
-            <img src="Imagenes/10.jpg" alt="logo" id="aqp"  width="300" height="150">
-                <article>
+        <div class="contenido">
+            <img src="Imagenes/10.jpg" alt="logo" id="aqp"  title="Arequipa" width="400" 
+            height="300" ondblclick="Adm()">
+                <article id="contexto">
                     <h4>MISION</h4>
-                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsum laboriosam quaerat, 
+                    <P>Lorem, ipsum dolor ssit amet consectetur adipisicing elit. Saepe ipsum laboriosam quaerat, 
                     suscipit quis qui possimus nobis quidem veniam molestias a repellat neque repudiandae at, 
                     illo atque itaque sint officiis!</P><br>
                     <h4>VISION</h4>
@@ -57,6 +59,10 @@
     </div>
 
 </menu>
+    <footer>
+        <h2>"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h2>
+
+    </footer>
     
 </body>
 </html>

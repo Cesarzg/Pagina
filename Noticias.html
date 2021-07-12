@@ -5,45 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
-    <link rel="stylesheet" href="Munakuiqui.css">
+    <link rel="stylesheet" href="/Css/Noticias.css">
+    <link rel="icon" href="/Imagenes/logo.png">
+    <script src="/Js/Noticias.js"></script>
    
 </head>
 <body>
     <header>
-        <h1 >"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h1>
-        <div class="Inicio">
-            <div>
-                <a href="Munakuiqui.html"><img src="/Imagenes/92.jpg" alt="Logo" width="300" height="150" id="Logo" title="Munakuiqui"></a>
+        <div class="inicio" >
+            <div id="header-logo">
+                <a href="Munakuiqui.html"><img src="Imagenes/logo.png" alt="Logo" width="250" height="100" title="aqp" id="Logo"></a>
             </div>
-            <nav>
-                <div class="Atajos">
-                    <ul>
-                        <li><a href="Quienes somos.html" >¿Quienes somos?</a></li>
-                        <li><a href="Servicios.html" >Servicios</a></li>
-                        <li><a href="Contaminacion.html" >Contaminacion</a></li>
-                        <li><a href="Noticias.html" >Noticias</a></li>
-                        <li><a href="Contactanos.html" >Contactanos</a></li>
-                        <li><input type="search" name="busquedaenlaces" placeholder="Ver mas" list="Links"></li>
-                        <li><input type="submit" value="Buscar" ></li>
+                <div id="atajos">
+                    <nav >
+                        <ul>
+                            <li> <a href="#" onclick="atajo1()">¿Quienes somos?</a></li>
+                            <li><a href="#" onclick="atajo2()">Servicios</a></li>
+                            <li><a href="#" onclick="atajo3()" >Consejos</a></li>
+                            <li><a href="#" onclick="atajo4()">Noticias</a></li>
+                            <li><a href="#" onclick="atajo5()">Contactanos</a></li>
                             
-                    </ul>
+                        </ul>
+                    </nav>  
                 </div>
-            </nav>
-
         </div>
+        
     </header>
    <br>
 <menu>
-    <h2><a href="Noticias.html">Noticias</a></h2>
-    <section>
-        
+    <h1><a href="Noticias.html">Noticias</a></h1>
+    <hr>
+    <div class="noticias">
+        <div class="noticia1">
+            <h1>El reciclaje, factor clave para la transformación social</h1>
+            <p> El reciclaje, la economía circular y las estrategias que ayuden 
+                al ambiente deberían ser parte del ADN de todas las empresas y asociaciones 
+                peruanas porque tenemos la responsabilidad, como fuerzas económicas y sociales, 
+                de ser actores de cambio enfocados en el desarrollo no solo de nuestros negocios, 
+                sino también de proyectos que mediante estrategias económicas y sociales impacten 
+                positivamente en el ambiente. <a href="#modal" class="btn-open-popup">Ver mas...</a></p>
+        </div>
+        <div class="noticia1">
+            <h1>En Arequipa excadetes se suman a preservar el árbol de la queñua</h1>
+            <p>El árbol de la queñua está en peligro de desaparecer en Arequipa y pasará a reforzar el bosque ecológico del Colegio Militar Francisco Bolognesi, como parte de una iniciativa de la XVI promoción del Colegio Militar Francisco Bolognesi (CMFB) 1967 - 1969. Aquí la entrevista.
+                <a href="#modal1" class="btn-open-popup">Ver mas ...</a>
+            </p>
+        </div>
+        <div class="noticia1">
+            <h1>Mercurio y plomo amenazan población en América Latina</h1>
+            <p>Las comunidades amazónicas son las que más expuestas a la contaminación por mercurio, producto de la minería aurífera; y en monitoreos en población general, trabajadores y niños son los grupos más afectados por el plomo en América Latina.
 
-    </section>
-    
+                Según una revisión estudios realizados entre 2016 y 2021 y publicada en Current Opinion in Toxicology, los investigadores advierten sobre una alarmante falta de datos sobre el problema de la exposición a metales pesados en la región.
+                                 
+                <a href="#modal2" class="btn-open-popup">Ver mas...</a></p>
+        </div>
+    </div>
+    <div>
+        <div class="container-all" id="modal">
+            <div class="popup">
+                <div class="img1"></div>
+                <div class="container-text">
+                    <h1>El reciclaje, factor clave para la transformación social</h1>
+                    <h3>En el Perú existen unos 180,000 recicladores y alrededor de 500,000 personas dependen económicamente de esta actividad.</h3>
+                    <p>12/06/2021 El reciclaje, la economía circular y las estrategias que ayuden al ambiente deberían ser parte del ADN de todas las empresas y asociaciones peruanas porque tenemos la responsabilidad, como fuerzas económicas y sociales, de ser actores de cambio enfocados en el desarrollo no solo de nuestros negocios, sino también de proyectos que mediante estrategias económicas y sociales impacten positivamente en el ambiente.De acuerdo con datos oficiales del Ministerio del Ambiente (Minam), los peruanos generamos al día aproximadamente 19,000 toneladas de residuos sólidos municipales, lo que equivale a tres estadios nacionales. Esto significa siete millones de toneladas de residuos sólidos al año. Lamentablemente, solo el 1.9% es reciclado y forma parte de la economía circular.
+                        Frente a estas cifras, fechas como el Día Mundial del Reciclaje y el Día Nacional del Reciclador son sumamente importantes, sobre todo porque ambos tienen un impacto social relevante. En el Perú existen unos 180,000 recicladores y alrededor de 500,000 personas dependen económicamente de esta actividad.                        
+                        No es casualidad, entonces, que el Minam tenga una lista de las asociaciones de recicladores inscritas formalmente en Lima, las cuales ascienden a 59 en Lima y Callao. Así como tampoco es gratuita la necesidad de realizar, en el 2019, el Primer Censo Nacional de Recicladores y Recicladoras del Perú, que arrojó la formalización de más de 5,500 recicladores y reveló que el 40% son mujeres. <br> <br>
+                        Fuente : Diario El Peruano</p>
+                </div>
+                <a href="Noticias.html" class="btn-close-popup">X</a>
+            </div>
+        </div>
+        <div class="container-all" id="modal1">
+            <div class="popup">
+                <div class="img2"></div>
+                <div class="container-text">
+                    <h1>En Arequipa excadetes se suman a preservar el árbol de la queñua</h1>
+                    <h3>Integrantes de la promoción 1967-1969, plantaron 600 de estos ejemplares en el colegio Francisco Bologensi como parte de una acción social ambiental.</h3>
+                    <p>El árbol de la queñua está en peligro de desaparecer en Arequipa y pasará a reforzar el bosque ecológico del Colegio Militar Francisco Bolognesi, como parte de una iniciativa de la XVI promoción del Colegio Militar Francisco Bolognesi (CMFB) 1967 - 1969. Aquí la entrevista.
+
+                        ¿Qué los ha motivado preservar el árbol de la queñua?
+                        
+                        Los compañeros de estudios de la XVI promoción del Colegio Militar Francisco Bolognesi 1967 - 1969 tomamos la decisión de dejar un lindo recuerdo a nuestro amado Colegio, como también para Arequipa, al sembrar 600 plantones del árbol de la queñua, de esta manera rescatar a esta especie en proceso de extinción, y en recuerdo a un bosque de eucaliptos que existía en nuestros tiempos de estudiante en el mismo sitio donde actualmente están las queñuas denominado bosque Bodas de Oro, al cumplir el aniversario de las Bodas de Oro; 50 años de haber salido del CMFB 2019 con la ayuda del director de Agricultura, obviamente con la autorización de la dirección del plantel, sembramos dichos plantones el 1 Junio 2019, ni la pandemia fue causa o motivo para abandonar nuestro proyecto de promoción que actualmente tiene 02 años de vida vegetativa. <br> <br>
+                        Fuente : Diario El Correo</p>
+                </div>
+                <a href="Noticias.html" class="btn-close-popup">X</a>
+            </div>
+        </div>
+        <div class="container-all" id="modal2">
+            <div class="popup">
+                <div class="img3"></div>
+                <div class="container-text">
+                    <h1>Mercurio y plomo amenazan población en América Latina</h1>
+                    <h3>
+                        Las comunidades originarias están entre los sectores más afectados por la contaminación con mercurio debido a que sus dietas se basan en la pesca. Por ejemplo, en personas que habitan cerca del río Apaporis (Colombia, en la foto) se detectaron niveles de mercurio en cabello de 23 μg/g, por encima de 10 μg/g, nivel considerado alto. Crédito de la imagen: Jucatili25/Wikimedia Commons, bajo licencia Creative Commons 4.0
+</h3>
+                    <p>Las comunidades amazónicas son las que más expuestas a la contaminación por mercurio, producto de la minería aurífera; y en monitoreos en población general, trabajadores y niños son los grupos más afectados por el plomo en América Latina.
+
+                        Según una revisión estudios realizados entre 2016 y 2021 y publicada en Current Opinion in Toxicology, los investigadores advierten sobre una alarmante falta de datos sobre el problema de la exposición a metales pesados en la región.
+                        
+                        En el caso del mercurio, el consumo de pescado es uno de los principales factores para la intoxicación por este elemento, que llega a los recursos acuáticos derivado de la minería artesanal en la Amazonia. Las comunidades originarias están entre los sectores más afectados por esta contaminación debido a que sus dietas se basan en la pesca.
+                        
+                        “Hacen falta programas que impulsen la extracción aurífera sin mercurio, en especial en comunidades que ancestralmente han realizado estas actividades, e insistir en educación y salud ambiental, divulgando la problemática con sustento científico”.
+                        Jesús Olivero Verbel, Universidad de Cartagena, Colombia
+                        En habitantes de localidades colombianas amazónicas adyacentes a los ríos Caqueta, Cotuhe y Apaporis se detectaron niveles de mercurio en cabello de 17,3 μg/g (microgramo/gramo); 10,6 μg/g y 23 μg/g, respectivamente, todos valores por encima de 1 μg/g, umbral establecido por la Agencia de Protección Ambiental de EEUU y del 10 μg/g, nivel considerado alto. En Brasil, en territorio de la comunidad Yanomami, contigua al río amazónico Uraricoera, se detectó una media de 15,5 μg/g, entre otros casos de gran exposición.<br> <br>
+                        Fuente : Scidev.net</p>
+                </div>
+                <a href="Noticias.html" class="btn-close-popup">X</a>
+            </div>
+        </div>
+        
+    </div>
     
 
 </menu>
-
+<footer>
+    <h2 >"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h2>
+</footer>
     
     
 </body>

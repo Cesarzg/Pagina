@@ -5,96 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
-    <link rel="stylesheet" href="Munakuiqui.css">
-   
+    <link rel="icon" href="/Imagenes/logo.png">
+    <link rel="stylesheet" href="/Css/Contactanos.css">
+    <script src="/Js/Contactanos.js"></script>
+    
 </head>
-<body >
+<body>
     <header>
-        <h1 >"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h1>
-        <div class="Inicio">
-            <div>
-                <a href="Munakuiqui.html"><img src="/Imagenes/92.jpg" alt="Logo" width="300" height="150" id="Logo" title="Munakuiqui"></a>
+        <div class="inicio" >
+            <div id="header-logo">
+                <a href="Munakuiqui.html"><img src="Imagenes/logo.png" alt="Logo" width="250" height="100" title="aqp" id="Logo"></a>
             </div>
-            <nav>
-                <div class="Atajos">
-                    <ul>
-                        <li><a href="Quienes somos.html" >¿Quienes somos?</a></li>
-                        <li><a href="Servicios.html" >Servicios</a></li>
-                        <li><a href="Contaminacion.html" >Contaminacion</a></li>
-                        <li><a href="Noticias.html" >Noticias</a></li>
-                        <li><a href="Contactanos.html" >Contactanos</a></li>
-                        <li><input type="search" name="busquedaenlaces" placeholder="Ver mas" list="Links"></li>
-                        <li><input type="submit" value="Buscar" ></li>
+                <div id="atajos">
+                    <nav >
+                        <ul>
+                            <li> <a href="#" onclick="atajo1()">¿Quienes somos?</a></li>
+                            <li><a href="#" onclick="atajo2()">Servicios</a></li>
+                            <li><a href="#" onclick="atajo3()" >Consejos</a></li>
+                            <li><a href="#" onclick="atajo4()">Noticias</a></li>
+                            <li><a href="#" onclick="atajo5()">Contactanos</a></li>
                             
-                    </ul>
+                        </ul>
+                    </nav>  
                 </div>
-            </nav>
-
         </div>
+        
     </header>
-    <menu>
-        <h2>
-            <a href="Contactanos.html">Contactanos</a>
-            </h2>
-        <div class="Registrarse">
-            
-            <article>
-                <table class="Registro" action="" >
-    
-                    <caption>
-                        <h2>¿QUIERES UNIRTE?</h2>
-                    </caption>
-                    <form action="Nuevo.html" target="_self" method="post">
-                        <tr>
-                            <th>
-                                <label for="fnombre">Nombres :</label>
-                                <input type="text" name="Nombres">
-                            </th>
-                            <th>
-                                <label for="fapellido">Apellidos :</label>
-                                <input type="text" name="Apellidos">
-                                <label for=""></label>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th>
-                                <label for="femail">E-mail :</label>
-                                <input type="text" name="Correo">
-                            </th>
-                            <th>
-                                <label for="fdireccion">Dirección :</label>
-                                <input type="text" name="Direccion">
-                            </th>
-                        </tr>
-                        <tr>
-                            <th colspan="2">
-                                <label for="fsexo">Sexo :</label>
-                                <input type="radio" name="optrradio" value="Masculino">Masculino
-                                <input type="radio" name="optrradio" value="Femenino">Femenino
-                            </th>
-                        </tr>
-                        <tr>
-                            <th colspan="2">
-                                <label for="fpalabras">Algunas palabras :</label><br>
-                                <textarea name="Mensaje" id="" ></textarea><br>
-                                <input type="reset" value="Comenzar denuevo" id="">
-                            </th>
-                        </tr>   
-                        <tr>
-                            <th colspan="2">
-                                <input type="submit" value="Enviar datos">
-                            
-                            </th>
-                        </tr>
-       
-    
-                    </form>
-    
-                </table>
-            </article>
-        </div>
-    </menu>
+    <br>
+<menu>
+    <h1>
+        <a href="Contactanos.html">Contactanos</a>
+        </h1>
 
+    <div class="registro">
+        <div class="titulos">
+            <h2>¿Quieres Unirte?</h2>
+            <p>Juntos podemos hacer un gran cambio</p>
+
+        </div>
+        
+        <div class="">
+                    <form class="Formulario" action="" method="POST">
+                        <input type="text" placeholder="Nombres" id="nombre" name="nombre" required value="" ><br>
+                        <input type="text" placeholder="Direccion" id="direccion" name="direccion" required value="" ><br>
+                        <input type="email" placeholder="Correo" id="correo" name="correo" required value="" ><br>
+                        <textarea name="Mensaje" placeholder="Mensaje" id="mensaje"  cols="15" rows="10"></textarea><br>
+                        <div class="derecha">
+                            <button class="botonderecha" type="reset" >Cancelar</button>
+                            <button class="botonderecha" onclick="Ingresar()">Aceptar</button>
+                        </form>
+        </div>
+    </div>
+        
+
+</menu>
+<br><br><br> 
+<div>
+     
+    <aside class="RedesSociales">
+        <h2>Visitanes en :</h2>
+        
+            <a href="#"><img src="/Imagenes/facebook.png" width="250" height="90" alt=""></a>
+            <a href="#"><img src="/Imagenes/Instagram.jpg" width="250" height="90" alt=""></a>
+            <a href="#"><img src="/Imagenes/watsapp.png" width="250" height="90" alt=""></a>
+        
+    </aside>
+</div>
+    <footer>
+        <h2>"Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol"</h2>
+
+    </footer>
     
 </body>
 </html>
