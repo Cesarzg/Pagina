@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(201, 231, 179);
+    background-color: rgb(229, 236, 225);
 }
 
 
@@ -55,12 +55,16 @@ menu {
     height: 1250px;
 }
 .presentacion{
-    height: 750px;
-   clear: both;
+    height: 1400px;
+   clear: both;   
    
-    
+}
+.presentacion .parrafo{
+    height: auto;
+   
 }
     .slider{
+        margin-top: 250px;
         width: 50%;
         overflow: hidden;
         
@@ -143,8 +147,8 @@ p{
     font-weight: 700;
     font-size: 1.5em;
     text-align: justify;
-    border:rgb(167, 176, 160)  solid 8px;
-    background: rgb(2, 150, 51);
+    
+    background: #56070C;
     border-radius: 10%;
    padding: 50px;
    margin: 100px 100px 50px 100px;
